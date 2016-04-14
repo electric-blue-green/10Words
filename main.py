@@ -8,7 +8,7 @@ def main():
 
 
 def checkWord(word):
-    if word.isnumeric:
+    if word.isnumeric():
         print('Don\'t enter a number, silly!')
         main()
     else:
@@ -24,3 +24,5 @@ def countWord(word):
         main()
     else:
         sys.exit()
+
+main()
